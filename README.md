@@ -5,7 +5,7 @@
 ### Installation
 Drop it in the ```plugins``` folder, include the CSS and JS files and you're done. 
 
-  {
-    "plugins": ["scriptbuttons"]
-  }
+    {
+      "plugins": ["scriptbuttons"]
+    }
   
