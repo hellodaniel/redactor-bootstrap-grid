@@ -1,4 +1,4 @@
-# Bootstrap Grid Plugin for Redactor
+# Bootstrap Grid Plugin for Redactor II
 
 ![](https://raw.githubusercontent.com/hellodaniel/redactor-bootstrap-grid/master/screenshot.png)
 
