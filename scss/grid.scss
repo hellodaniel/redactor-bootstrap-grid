@@ -1,0 +1,44 @@
+$grid-color: rgb(86,61,124);
+
+.redactor-box { 
+
+	.redactor-editor  {
+    
+    // Styling as per Bootstrap's own example... 
+    [class^="col-"] {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: #eee;
+      background-color: rgba($grid-color,.15);
+      border: 1px solid #ddd;
+      border: 1px solid rgba($grid-color,.2);
+    }
+
+  }
+
+}
+
+
+.redactor-dropdown {
+    
+  &.redactor-dropdown-box-grid {
+    li {
+      text-align: center; 
+      a {
+        font-family: monospace;
+        color: $grid-color;
+        // Add a text shadow because there's some small gaps
+        text-shadow: 3px 0px 0 $grid-color !important;
+        font-size: 26px;
+      }
+      &:hover {
+        background: $grid-color; 
+        a {
+          text-shadow: 3px 0px 0 #FFF !important;
+        }
+      }
+    }
+    
+  }
+  
+}
